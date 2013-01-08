@@ -71,7 +71,6 @@
                 }      // update max
 
                 if(step){
-                    console.log(step);
                     stepChilds.push($element);
                     if((i+1) % step == 0){
                         $.each(stepChilds, function(i, el){el.css(type, max +'px')});
